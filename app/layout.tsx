@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Deepak Suthar | Software Engineer",
+		template: "%s | Deepak Suthar | Software Engineer",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Fullstack software engineer",
 	openGraph: {
-		title: "chronark.com",
+		title: "Deepak Suthar | Software Engineer",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Fullstack software engineer",
+		url: "https://0xdeepak.vercel.app",
+		siteName: "0xdeepak.vercel.app",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://0xdeepak.vercel.app/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Deepak Suthar",
 		card: "summary_large_image",
 	},
 	icons: {

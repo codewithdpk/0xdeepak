@@ -54,7 +54,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 			>
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
-						<span
+						{/* <span
 							title="View counter for this page"
 							className={`duration-200 hover:font-medium flex items-center gap-1 ${
 								isIntersecting
@@ -66,8 +66,8 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 							{Intl.NumberFormat("en-US", { notation: "compact" }).format(
 								views,
 							)}
-						</span>
-						<Link target="_blank" href="https://twitter.com/chronark_">
+						</span> */}
+						<Link target="_blank" href="https://twitter.com/0xDsuthar">
 							<Twitter
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
@@ -76,7 +76,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								} `}
 							/>
 						</Link>
-						<Link target="_blank" href="https://github.com/chronark">
+						<Link target="_blank" href="https://github.com/codewithdpk">
 							<Github
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
